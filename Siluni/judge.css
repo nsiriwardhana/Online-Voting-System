@@ -1,0 +1,90 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	color: #131111;
+}
+
+html {
+	height: 100%;
+}
+
+body{
+	background-image: url("https://bit.ly/3Wrju2u");
+	width: 100%;
+	
+}.main1 {
+	padding: 20px;
+	margin-top: 15px;
+}
+
+
+.container2{
+	width: 500px;
+	padding: 40px;
+	background-color: #71cdcd;
+	height: 600px;
+	margin-top: 15px;
+	float:left;
+	margin: 10px;
+}
+.container {
+	width:700px;
+	padding: 20px;
+	background-color: #71cdcd;
+	height: 300px;
+	float:right;
+	margin: 40px;
+}
+
+
+
+.profilepic{
+	border-radius: 50%;
+	height:70px;
+}
+
+.main1  {
+    
+    background: #71cdcd;
+    width: 750px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+ .main1 .Analyze Votes Percentage table td:nth-child(1) img {
+    height: 40px;
+    width: 20px;
+}
+.btn{
+	display:inline-block;
+	text-decoration: none;
+	background: rgb(10, 114, 79);
+	color: #131111;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+
+/*Header*/
+
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	color: yellow;
+  }
+  
+.AdminLogout:hover{
+	scale:1.05;
+	background-color: rgb(83, 82, 82)
+	
+}
+

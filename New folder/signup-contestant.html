@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vocal Voyage | Home</title>
+
+     <!--Favicon-->
+     <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+    <!--linking css file-->
+    <link rel="stylesheet" href="css/styles_main.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/script_T.js"></script>
+    <!--linking fonts from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Header-->
+    <header>
+        <ul>
+            <li><a href="..\Dhanuka\index.html">Home</a></li>
+            <li><a href="../Dhanuka/leaderboard.php">Leaderboard</a></li>
+            <li><a href="About us.html">About us</a></li>
+            <!--<li style="float:right"><a class="HomeSignup" href="signup-contestant.html">Signup</a></li>-->
+            <li style="float:right"><a class="" href=""></a></li>
+            <li style="float:right"><a class="HomeLogin" href="..\Dhanuka\index.html">Login</a></li>
+            
+        </ul>
+    </header>
+</head>
+<body>
+    <!--Voter/Contestant buttons-->
+<center>
+    <button onclick="voterBtn()" value="Voter" class="voterbtn"><span>Voter</span></button>
+    <button onclick="constBtn()" value="Contestant" class="contbtn"><span>Contestant</span></button>
+</center>
+
+<!--Contestant detais-->
+<center>
+    <h1>Contestant</h1>
+    <form method="post" action="signup_contestant.php" name="register" id="details_c">
+        <label for="c_name">Input name :</label><br/>
+        <input type="text" id="name_Contestant" placeholder="Name" style="color:black" name="Name_c" required>
+        <br/><br/>
+        <lebel for="c_date">Input birthday :</lebel><br/>
+        <input type="text" id="date_Contestant" placeholder="DD-MM-YYYY" style="color:black" name="Birthday_c" required>
+        <br/><br/>
+        <label for="c_address">Input Address :</label><br/>
+        <input type="text" id="address_Contestant" placeholder="Address" style="color:black" name="Address_c" required>
+        <br/><br/>
+        <label for="c_email">Input email :</label><br/>
+        <input type="email" id="email_Contestant" placeholder="Email" style="color:black" name="Email_c" required>
+        <br/><br/>
+        <label for="c_username">Input username :</label><br/>
+        <input type="text" id="username_c" placeholder="Username" style="color:black" name="Username_c" required>
+        <br><br>
+        <label for="c_password">Input password :</label><br/>
+        <input type="password" id="password_c" placeholder="Password" style="color:black" name="Password_c" required>
+        <br><br>
+        <label for="c_repassword">Input password again :</label><br/>
+        <input type="password" id="repassword_c" placeholder="Re-enter Password" style="color:black" name="RePassword_c" required>
+        <br><br>
+        <input type="submit" value="Create Account" id="createacc" name="submit_c" >
+    </form>
+    </center>
+</form>
+
+</body>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+        <div class="content"><img src="img/logo.png" height="60px" style="float: left;" class="ftrlogo"></div>
+        <div class="content">
+            <p class="ftrmenu"><a href="">Contact us</a>&nbsp;&nbsp;&nbsp;
+                <a href="../t&cHasangi/terms.html">Terms and Conditions</a>&nbsp;&nbsp;&nbsp;
+                <a href="../t&cHasangi/privacy.html">Privacy policy</a>&nbsp;&nbsp;&nbsp;
+                <a href="../t&cHasangi/index.php">FAQ</a></p>
+        </div>
+            <!--Subscribe-->
+        <div class="subscribe" class="content">
+            <input type="email" class="email" id="Email" name="Email" placeholder="Email" autocomplete="off">
+            <input class="emailsubmit" value="Subscribe" type="submit">
+        </div>
+        <div>
+        </footer>
+
+</html>

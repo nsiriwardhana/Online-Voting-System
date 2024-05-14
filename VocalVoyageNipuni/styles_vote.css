@@ -1,0 +1,66 @@
+.box{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid #3498db;
+    box-shadow: -3px -3px 7px #ffffff73,
+    3px 3px 5px rgba(94,104,121,0.288);
+    border-radius: 5px;
+    background-color:  rgba(17, 24, 39, 1);
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.profilepic{
+    float: right;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 100 auto;
+    margin-right: 100px;
+    border: 1px solid #0082e6;
+    padding: 3px;
+    position: relative;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+button{
+    border-radius: 10%;
+    font-size: 50px;
+    background-color: darkblue;
+    box-shadow: 0 0 5px rgb(17, 0, 255),
+    0 0 25px rgb(0, 60, 255);
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+button:hover{
+    box-shadow: 0 0 5px rgb(17, 0, 255),
+    0 0 25px rgb(47, 0, 255), 0 0 50px rgb(47, 0, 255),
+    0 0 100px rgb(47, 0, 255), 0 0 200px rgb(17, 0, 255);
+
+}
+
+.countdown {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+ /* .text{
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #0082e6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+} */
